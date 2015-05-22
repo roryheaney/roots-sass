@@ -1,1 +1,74 @@
-.banner { }
+.banner {
+	margin-bottom: 0;
+	background-color:#F2F2F2;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid #FBFBFB;
+}
+
+.navbar-brand {
+
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #FFF;
+	border-radius:0;
+	width: 18px;
+	height: 3px;
+}
+
+.navbar-toggle {
+	background-color: $brand-primary;
+	border-radius:0;
+}
+
+.fill-image {
+	background-position:50% 50%;
+	background-size:cover;
+
+	&-landing {
+		background-image: url("../img/pss-original/main/header-splash.jpg");
+	}
+}
+
+.big-marvin {
+	display: table;
+	margin: 0 auto 30px auto;
+
+	@media screen and (min-width: $screen-sm-min) {
+		margin: -90px 15px 90px;
+	}
+	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		#big-marvin-svg {
+			width: 200px;
+		}
+	}
+
+}
+
+.header-landing {
+	h1 {
+		color: $brand-primary;
+		font-size: 23px;
+		font-size: 2.3rem;
+		line-height: 27px;
+		line-height: 2.7rem;
+		margin-bottom: 40px;
+		margin-top: 40px;
+		max-width: 330px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 19px;
+		margin-bottom: 20px;
+		color: $brand-primary;
+
+		a {
+			text-decoration: underline;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

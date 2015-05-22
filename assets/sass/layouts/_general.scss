@@ -8,3 +8,67 @@
     @include make-sm-column($main-sm-columns - $sidebar-sm-columns);
   }
 }
+
+.fill {
+	padding-bottom: 40px;
+	padding-top: 40px;
+
+	&-image-landing {
+		padding-top: 0;
+	}
+	
+	@media screen and (min-width: $screen-sm-min) {
+		&-overlap {
+			position: relative;
+		    top: -120px;
+		    z-index: 15;
+		}
+	}
+}
+
+.course-search {
+	background-color:$brand-primary;
+	padding: 10px;
+}
+
+.e-learning-courses {
+	background-color:#0086FF;
+}
+
+.search-table-cell {
+	padding: 10px;
+	position: relative;
+	@media screen and (max-width: $screen-sm-max) {
+		margin-top: 30px;
+	}
+
+	.title {
+		font-size: 27px;
+		color: #FFF;
+	}
+
+	.e-learning-courses-content {
+		color: #FFF;
+		display: block;
+		margin: 10px 0px 12px;
+		line-height: 19px;
+	}
+
+	select {
+		margin-bottom: 0px;
+		color: #555;
+	}
+	
+}
+
+.newtag {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    z-index: 10;
+    font-size: 12px;
+    padding: 3px 6px;
+    background: none repeat scroll 0% 0% #E21E1E;
+    color: #FFF;
+    text-transform: uppercase;
+}
