@@ -24,5 +24,7 @@
 <seciton class="fill fill-overlap">
 	<div class="container">
 		<?php get_template_part('templates/form-course-search'); ?>	
+		<?php get_template_part('templates/callouts'); ?>
+		<?php get_template_part('templates/coursesnearby'); ?>
 	</div>
 </seciton><!-- / .fill -->
