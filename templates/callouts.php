@@ -1,7 +1,5 @@
-<section>
+<section class="main main-landing">
     <div class="container">
-
-        <h2><?php //echo get_option('popularheadline'); ?></h2>
 
         <div class="row">
 

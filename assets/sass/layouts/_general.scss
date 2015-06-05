@@ -1,13 +1,18 @@
 // Content wrapper
 .wrap { }
 
-// Main content area
-/*.main {
-  @include make-sm-column($main-sm-columns);
-  .sidebar-primary & {
-    @include make-sm-column($main-sm-columns - $sidebar-sm-columns);
-  }
-}*/
+.s {
+    background: url("../img/pss-original/sprite.png") repeat scroll 0% 0% transparent;
+    display: block;
+}
+
+.main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	&-landing {
+		padding-top: 5px;
+	}
+}
 
 .fill {
 	padding-bottom: 40px;
@@ -42,6 +47,7 @@
 .search-table-cell {
 	padding: 10px;
 	position: relative;
+	border-radius: 3px;
 	@media screen and (max-width: $screen-sm-max) {
 		margin-top: 30px;
 	}
@@ -77,6 +83,18 @@
 .homepage-locations {
 	li {
 		line-height: 24px;
+	}
+}
+
+.cta {
+	text-align: right;
+	text-decoration: underline;
+	float: right;
+	margin: 0px;
+	font-size: 11px;
+
+	&:hover {
+		text-decoration: none;
 	}
 }
 
