@@ -18,14 +18,13 @@
   <?php else: ?>
   <div class="wrap container" role="document">
     <div class="content row">
-      <main class="main" role="main">
+      <main class="col-sm-12" role="main">
         <?php include roots_template_path(); ?>
+
+        <?php /* Courses by Project Skills Solutions */ if ( is_page(33) ) : get_template_part('loops/course-categories'); endif; ?>
+        <?php /* Contact Page  */ if ( is_page(38) ) : get_template_part('blocks/contact'); endif; ?>
+
       </main><!-- /.main -->
-      <?php if (roots_display_sidebar()) : ?>
-        <aside class="sidebar" role="complementary">
-          <?php include roots_sidebar_path(); ?>
-        </aside><!-- /.sidebar -->
-      <?php endif; ?>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
   <?php endif; ?>

@@ -1,11 +1,11 @@
 <section class="main main-landing">
-    <div class="container">
+
 
         <div class="row">
 
             <div class="col-sm-12">         
                 <h2><?php echo get_option('popularheadline'); ?></h2>
-                <div class="hidden-xs">
+                <div class="hidden-xs pad-h">
                     <p class="sub"><?php echo get_option('populartext'); ?></p>
                 </div>
             </div>
@@ -37,5 +37,5 @@
 
         </div>
 
-    </div>
+
 </section>

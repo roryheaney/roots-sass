@@ -3,3 +3,42 @@
 .hentry .byline { }
 .hentry .entry-content { }
 .hentry footer { }
+
+.category-thumb {
+	position: relative;
+	background: none repeat scroll 0% 0% #FFF;
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+
+	img {
+		width: 100%;
+		height: auto;
+		position:relative;
+		z-index: 1;
+	}
+
+	.inner {
+		padding: 6px;
+		position: relative;
+	}
+
+	span {
+		padding: 15px 20px 16px;
+		background-color: #000;
+		background-color: rgba(0, 0, 0, 0.75);
+		position: absolute;
+		bottom: 0px;
+		z-index: 2;
+		color: #FFF;
+		font-size: 1.7rem;
+		font-weight: bold;
+		display: block;
+		width: 100%;
+	}
+}
+
+.training-courses {
+	margin-bottom: 20px;
+}

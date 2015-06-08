@@ -17,3 +17,9 @@ h1, h2, h3, h4, h5, h5,
 		width: 950px;
 	}
 }
+
+.col-sm-pad-l-0 {
+	@media screen and (min-width: $screen-sm-min) {
+		padding-left: 0;
+	}	
+}
