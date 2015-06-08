@@ -21,6 +21,9 @@
 	<div class="container">
 		<?php get_template_part('templates/form-course-search'); ?>	
 		<?php get_template_part('templates/callouts'); ?>
+		<div class="main main-intv pad-h">
+			<?php include roots_template_path(); ?>
+		</div>
 		<?php get_template_part('templates/coursesnearby'); ?>
 	</div>
 </section><!-- / .fill -->

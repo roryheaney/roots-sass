@@ -1,3 +1,5 @@
+<?php if ( is_front_page() ) : ?>
+<?php else: ?>
 <div class="page-header">
   <h1>
     <?php echo roots_title(); ?>
@@ -10,3 +12,4 @@
         bcn_display();
     }?>
 </div>
+<?php endif; ?>

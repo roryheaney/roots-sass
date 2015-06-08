@@ -19,11 +19,15 @@
   <div class="wrap container" role="document">
     <div class="content row">
       <main class="col-sm-12" role="main">
-        <?php include roots_template_path(); ?>
 
-        <?php /* Courses by Project Skills Solutions */ if ( is_page(33) ) : get_template_part('loops/course-categories'); endif; ?>
-        <?php /* Contact Page  */ if ( is_page(38) ) : get_template_part('blocks/contact'); endif; ?>
+        <?php /* Use left had column for content - Contact Page  */ if ( is_page(38) ) : get_template_part('blocks/contact'); ?>
 
+        <?php else : ?>
+
+          <?php include roots_template_path(); ?>
+          <?php /* Courses by Project Skills Solutions */ if ( is_page(33) ) : get_template_part('loops/course-categories'); endif; ?>
+
+        <?php endif; ?>
       </main><!-- /.main -->
     </div><!-- /.content -->
   </div><!-- /.wrap -->

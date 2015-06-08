@@ -14,7 +14,13 @@
 		padding-top: 15px;
 		padding-left: 15px;
 		padding-right: 15px;
+		padding-bottom: 0;
 		background-color:#FFF;
+	}
+
+	&-intv {
+		padding-top: 30px;
+		padding-bottom: 0;
 	}
 }
 
@@ -150,12 +156,14 @@
     text-transform: uppercase;
 }
 
-.pad-h {
-	padding-left: 15px;
-	padding-right: 15px;
+@media screen and (min-width: $screen-sm-min) {
+	.pad-h {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 
-h1 {
+h1, .h1 {
 	font-size: 20px;
 	font-size: 2rem;
 	line-height: 25px;
@@ -164,7 +172,7 @@ h1 {
 	color:$brand-secondary;
 }
 
-h2 {
+h2, .h2 {
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 20px;
@@ -215,5 +223,19 @@ p, li {
 		color: #666;
 		margin-bottom: 15px;
 		padding: 0px;
+	}
+}
+
+.callouts .cta, .read-more {
+	text-align: right;
+	text-decoration: underline;
+	border-radius: 0px;
+	box-shadow: none;
+	float: right;
+	font-size: 11px;
+	margin-top: 20px;
+
+	&:hover {
+		text-decoration: none;
 	}
 }

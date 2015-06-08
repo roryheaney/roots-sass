@@ -160,6 +160,7 @@
 
 
 ul.contact-menu-top {
+	margin-bottom: 0;
 	@media screen and (min-width: $screen-sm-min) {
     	float: left;
     	margin-left: -15px;	
@@ -198,6 +199,7 @@ ul.secondary-menu {
 	.navbar-default .navbar-nav > li {
 		font-size: 13px;
 		margin-right: 8px;
+		margin-bottom: 0;
 		a {
 			border: 1px solid #DDD;
 			border-radius: 2px;

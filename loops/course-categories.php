@@ -13,7 +13,7 @@ if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
         $i++;
         $term_id = $term->term_id;
         $image =  get_field('image', $term );
-    	$term_list .= '<li class="col-sm-6 col-md-4"><a class="category-thumb" href="' . get_term_link( $term ) . '" title="' . sprintf( __( 'View all post filed under %s', 'my_localization_domain' ), $term->name ) . '"><div class="inner"><span>' . $term->name . '</span><img src="' . $image . '" alt="' . $term->name . '"></a></div></li>';
+    	$term_list .= '<li class="col-sm-6 col-md-4"><a class="category-thumb" href="' . get_term_link( $term ) . '" title="' . sprintf( __( 'View all post filed under %s', 'my_localization_domain' ), $term->name ) . '"><div class="inner"><div class="thumb"><div class="overlay"></div><span>' . $term->name . '</span><img src="' . $image . '" alt="' . $term->name . '"></div></div></a></li>';
     	if ( $count != $i ) {
             //$term_list .= ' &middot; ';
         }
