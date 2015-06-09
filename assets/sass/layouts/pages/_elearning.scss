@@ -1,0 +1,458 @@
+/*E-LEARNING MARKETING CSS*/
+
+#blue-block-1{
+	background-image: url('../img/pss-original/brochure/start-elearning-course-bg.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#blue-block-1 h1{
+	text-align:center;
+	font-size:28px;
+	line-height: 28px;
+	margin: 0 0 10px 0;
+	color: #FFF;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.9);
+}
+
+#blue-block-1 p {
+	text-align:center;
+	font-size:18px;
+	line-height: 24px;
+	margin: 0 0 20px 0;
+	color: #FFF;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.9);
+}
+
+#learn-more-about-elearning-arrow{
+	background: url('../img/pss-original/brochure/learn-more-about-elearning-arrow.png');
+	width: 45px;
+	height: 84px;
+}
+
+.scroll-down-prompt {
+	background: url('../img/pss-original/brochure/learn-more-about-elearning-arrow.png') no-repeat 0 100%;
+	width: 170px;
+	margin: 0 auto;
+	display: block;
+	color: #FFF;
+	font-size: 22px;
+	text-align: center;
+	padding-left: 25px;
+	padding-bottom: 38px;
+	margin-top: 80px;
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.9);
+
+}
+
+.cta-white-brochure{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f4f4f4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f4f4f4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f4f4f4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f4f4f4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f4f4f4 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f4f4f4 100%); /* W3C */
+}
+.cta-white-brochure .col-md-12{
+	width: 100%;
+}
+.cta-white-brochure{
+	padding: 60px 0;
+}
+.cta-white-brochure .main {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.cta-white-brochure.cta-pad-1 {
+	padding-top: 40px;
+	@media screen and (min-width: $screen-sm-min) {
+	padding-top: 165px;
+	}
+	padding-bottom: 50px;
+}
+.cta-white-brochure .pad {
+	padding: 0 45px;
+}
+.cta-white-brochure .col-md-12 h2{
+	text-align:center;
+	font-size:28px;
+	line-height: 28px;
+	margin: 0 0 15px 0;
+	color: #666;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+}
+.cta-white-brochure .col-md-12 p{
+	text-align:center;
+	font-size:18px;
+	line-height: 24px;
+	margin: 0 0 16px 0;
+	color: #666;
+	padding: 0 0 30px 0;
+	background-color: transparent;
+	border: 0 none;
+	
+	font-weight: normal;
+}
+.cta-white-brochure .col-md-6 h3{
+	text-align:left;
+	font-size:24px;
+	line-height: 24px;
+	margin: 0 0 5px 0;
+	color: #001748;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+}
+.cta-white-brochure .col-md-6 p{
+	text-align:left;
+	font-size:16px;
+	line-height: 24px;
+	margin: 0 0 16px 0;
+	color: #666;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+}
+.cta-white-brochure .col-md-6 .btn-blue,
+.cta-white-brochure .btn-blue {
+	float: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	@media screen and (min-width: $screen-sm-min) {
+		float: right;
+		display: inline-block;
+	}
+	text-align:center;
+	font-size:17px;
+	line-height: 17px;
+	margin: 0 0 17px 0;
+	color: #FFF;
+	padding: 10px 30px;
+	font-weight: normal;
+	border-radius: 5px;
+	border:0;
+	@media screen and (max-width: $screen-xs) {
+		margin-top: 30px;
+	}
+}
+.cta-white-brochure .btn-blue.btn-demo {
+	float: none;
+	width: 235px;
+	display: block;
+	margin: 25px auto;	
+}
+.cta-white-brochure .col-md-6 h3.tick-boxes-heading {
+	margin-top: 10px;
+}
+.tick-boxes{
+	color: #666;
+	margin-top: 10px;
+	padding-left:0;
+	margin-bottom: 35px;
+}
+.tick-boxes li {
+	list-style: none;
+	padding-left: 20px;
+	background: url('../img/pss-original/main/tick.png') no-repeat 0 6px;
+	margin: 0 0 2px 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.svg #learn-elearning-on-any-device, .no-svg #learn-elearning-on-any-device{
+	width: 100%;
+	height: 152px;
+	background-size:100% auto !important;
+	@media screen and (min-width: $screen-sm-min) {
+		width: 409px;
+		height: 214px;
+	}
+	@media screen and (max-width: $screen-xs) {
+		margin-bottom: 30px;
+	}
+}
+.svg #learn-elearning-on-any-device{
+	background: url('../img/pss-original/brochure/learn-e-learning-on-any-device-browser.svg');
+}
+.no-svg #learn-elearning-on-any-device{
+	background: url('../img/pss-original/brochure/learn-e-learning-on-any-device-browser.png');
+}
+
+.svg #multi-media-training-courses, .no-svg #multi-media-training-courses{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 30px;
+	background-size:100% auto !important;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	@media screen and (min-width: $screen-sm-min) {
+		width: 369px;
+		height: 255px;
+		margin-bottom: 0;
+	}
+}
+.svg #multi-media-training-courses{
+	background: url('../img/pss-original/brochure/multi-media-training-courses.svg');
+}
+.no-svg #multi-media-training-courses{
+	background: url('../img/pss-original/brochure/multi-media-training-courses.png');
+}
+.svg #do-not-duck-out-of-training, .no-svg #do-not-duck-out-of-training{
+	width: 280px;
+	height: 223px;
+	background-size:100% auto !important;
+	@media screen and (min-width: $screen-md-min) {
+		width: 563px;
+		height: 448px;
+	}
+	@media screen and (min-width: $screen-sm-min) {
+		position: absolute;
+	}
+	
+}
+.svg #do-not-duck-out-of-training{
+	background: url('../img/pss-original/brochure/do-not-duck-out-of-training.svg');
+}
+.no-svg #do-not-duck-out-of-training{
+	background: url('../img/pss-original/brochure/do-not-duck-out-of-training.png');
+}
+
+#blue-block-2{
+	background-image: url('../img/pss-original/brochure/training-solutions-for-small-and-large-companies.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+	src='../img/pss-original/brochure/training-solutions-for-small-and-large-companies.jpg',
+	sizingMethod='scale');
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#blue-block-2 h3{
+	text-align:left;
+	font-size:23px;
+	line-height: 28px;
+	margin: 0 0 10px 0;
+	color: #FFF;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+}
+
+#blue-block-2 p{
+	text-align:left;
+	font-size:16px;
+	line-height: 24px;
+	margin: 0 0 16px 0;
+	color: #FFF;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+}
+
+.cta-white-brochure blockquote{
+  display:block;
+  background-image: url('../img/pss-original/brochure/blockquote-bg.gif');
+  background-repeat:repeat;
+  border-radius: 4px;
+  padding: 15px 20px 15px 20px;
+  margin: 0;
+  position: relative;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+
+  
+  /*Font*/
+  font-size: 16px;
+  line-height: 24px;
+  color: #666;
+  text-align: justify;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+.cta-white-brochure blockquote a{
+  cursor: pointer;
+  padding: 5px 3px;
+  color: #FFF;
+}
+
+.cta-white-brochure blockquote a:hover{
+ color: #FFF;
+}
+
+	.lquote, .rquote {
+		color: #0086FF;
+		font-size: 20px;
+		position: absolute;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-size: 110px;
+		z-index: 10;
+	}
+
+	.lquote {
+		left: -10px;
+		top: 40px;
+	}
+
+	.rquote {
+		right: -10px;
+		bottom: -15px;
+	}
+
+	.quote-profile {
+		position: absolute;
+		bottom: -49px;
+		left: 16px;
+		z-index: 2;
+		border-radius: 50%;
+		width: 97px;
+	}
+	.quote-profile-overlay {
+		position: absolute;
+		bottom: -48px;
+		left: 15px;
+		background: url('../img/pss-original/main/profile-overlay.png') no-repeat;
+		z-index: 3;
+		width: 98px;
+		height: 98px;
+	}
+
+	blockquote .quote-author {
+		font-size: 16px;
+		color: #001748;
+		position: relative;
+		display: block;
+		left: 110px;
+		top: -5px;
+		width: 270px;
+		margin-top: 30px;
+		@media screen and (max-width: $screen-xs) {
+			width: 115px;
+			font-size: 12px;
+			line-height: 15px;
+		}
+	}
+
+.cta-white-brochure blockquote.indented {
+	margin-top: 35px;
+	@media screen and (min-width: $screen-sm-min) {
+		margin-top: 0;
+	}
+	margin-bottom: 80px;
+}
+
+.cta-white-brochure blockquote.indented p { 
+	text-indent:18px;
+	margin-top: 5px;
+}
+#blue-block-3{
+	background-image: url('../img/pss-original/brochure/request-a-training-demo-bg.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#blue-block-3 h3{
+	text-align:center;
+	font-size:28px;
+	line-height: 28px;
+	margin: 0 0 25px 0;
+	color: #FFF;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+}
+#blue-block-3 p{
+	text-align:center;
+	font-size:16px;
+	line-height: 24px;
+	margin: 0 0 16px 0;
+	color: #FFF;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: normal;
+}
+#blue-block-3 label span{
+	text-align:left;
+	font-size:17px;
+	line-height: 20.4px;
+	margin: 0 0 4px 0;
+	color: #FFF;
+	padding: 0;
+	background-color: transparent;
+	border: 0 none;
+	font-weight: 700;
+	display: block;
+}
+#request-demo-content {
+	overflow:hidden;
+	margin-top: 30px;
+
+	label {
+		width: 100%;
+	}
+}
+
+#request-demo-content input[type="text"], #request-demo-content input[type="email"] {
+	padding: 12px;
+	font-size: 16px;
+	border: 1px solid #666666;
+	color: #000;
+	width: 100%;
+	@media screen and (min-width: $screen-md-min) {
+		width: 285px;
+	}
+}
+
+#course-keywords, #e-course-keywords {
+	width: 280px;
+	@media screen and (min-width: $screen-sm-min) {
+		width: 415px;
+	}
+	height: 40px;
+}
+
+.query-courses-form {
+	width: 280px;
+	@media screen and (min-width: $screen-sm-min) {
+		width: 415px;
+	}
+    margin: 0px auto;
+}
+
+.query-courses-form .faux-submit {
+	margin-top: 15px;
+    padding: 20px;
+    line-height: 24px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+/*EO E-LEARNING MARKETING CSS*/

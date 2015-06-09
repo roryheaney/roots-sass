@@ -5,7 +5,6 @@
     <?php echo roots_title(); ?>
   </h1>
 </div>
-
 <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
     <?php if(function_exists('bcn_display'))
     {

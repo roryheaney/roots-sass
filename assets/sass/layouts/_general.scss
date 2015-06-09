@@ -239,3 +239,22 @@ p, li {
 		text-decoration: none;
 	}
 }
+
+.section {
+	clear: both;
+	width: 100%;
+
+	&-artwork1 {
+		background: url("../img/pss-original/main/header-splash-3.jpg") no-repeat fixed center -15px / 100% auto transparent;
+		min-height: 659px;
+	}
+
+	&-blue-block-1 {
+	    background-image: url("../img/pss-original/brochure/start-elearning-course-bg.jpg");
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-size: cover;
+	    background-attachment: fixed;
+	}
+
+}

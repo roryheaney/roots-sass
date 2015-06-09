@@ -29,6 +29,7 @@
 #header-contact {
 	@media screen and (max-width: $screen-xs-max) {
 		margin: 0px -30px;
+		margin-top: 10px;
 
 		ul {
 			clear: both;
@@ -36,6 +37,7 @@
 		}
 
 		ul.secondary-menu {
+			margin-top: 0;
 			margin-left: -10px;
 			margin-top: 10px;
 			float: left;
@@ -44,6 +46,7 @@
 	}
 	li {
 		float: left;
+		margin-bottom: 0;
 	}
 	li#phone span.icon {
     	background-position: -68px -75px;
@@ -86,6 +89,7 @@
 		float: right;
 		clear: both;
 		padding-right: 15px;
+		margin-top: 10px;
 	}
 }
 

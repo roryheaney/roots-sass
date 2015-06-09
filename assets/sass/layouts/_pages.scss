@@ -52,6 +52,11 @@
     border-right: 1px solid #EAEAEA;
     background: url("../img/pss-original/background-contact.png") repeat scroll 0% 0% #F9F9F9;
     padding: 20px 20px 80px;
+    @media screen and (max-width: $screen-xs) {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 20px;
+    }
     border-radius: 3px;
     box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
     margin-top: 25px;
