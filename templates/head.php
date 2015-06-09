@@ -9,6 +9,4 @@
   <?php wp_head(); ?>
 
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="https://s3-eu-west-1.amazonaws.com/projss.co.uk/wp-content/themes/pss/favicon.ico">
 </head>

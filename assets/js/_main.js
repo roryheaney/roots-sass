@@ -23,7 +23,6 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-      grid();
     }
   },
   // Home page
@@ -38,12 +37,6 @@ var Roots = {
       // JavaScript to be fired on the about us page
     }
   }
-};
-
-var grid = function() {
-
-  $('.search-forms-match').matchHeight();
-
 };
 
 // The routing fires all common scripts, followed by the page specific scripts.
